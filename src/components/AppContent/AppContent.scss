@@ -1,0 +1,64 @@
+@import './../../assets/scss/_mixins.scss';
+
+.appContent {
+  margin-top: rem(+70px);
+
+  //a {
+  //  @include carbon--type-style('expressive-heading-06');
+  //}
+  //
+  //.bx--tabs__nav-item .bx--tabs__nav-item--selected {
+  //  @include carbon--type-style('expressive-heading-06');
+  //}
+
+  //>li {
+  //  @include carbon--type-style('expressive-heading-06');
+  //}
+
+  //.bx--tabs__nav-item--selected {
+  //  @include carbon--type-style('expressive-heading-06');
+  //}
+
+  //.bx--tabs__nav-link {
+  //  @include carbon--type-style('expressive-heading-06');
+  //}
+  //.bx--tabs__nav-item--selected:not(.bx--tabs__nav-item--disabled) {
+  //    @include carbon--type-style('expressive-heading-06');
+  //  }
+
+  //.bx--tabs__nav-item &.bx--tabs__nav-item--selected {
+  //    @include carbon--type-style('expressive-heading-04');
+  //
+  //  }
+
+}
+
+//.appContent__tab-content {
+//  padding-top: $layout-05;
+//  padding-bottom: $layout-05;
+//}
+//
+//.appContent__subheading {
+//  @include carbon--type-style('productive-heading-06');
+//  @include carbon--font-weight('semibold');
+//}
+//
+//.appContent__p {
+//  @include carbon--type-style('productive-heading-03');
+//  margin-top: $spacing-06;
+//  margin-bottom: $spacing-08;
+//
+//  @include carbon--breakpoint-between((320px + 1), md) {
+//    max-width: 75%;
+//  }
+//}
+//
+//.appContent__r3 {
+//  padding-top: $spacing-09;
+//  padding-bottom: $spacing-09;
+//  @include landing-page-background;
+//}
+//
+//.appContent__label {
+//  @include carbon--type-style('heading-01');
+//}
