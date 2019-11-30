@@ -1,0 +1,33 @@
+.progress-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .bx--progress {
+    height: 3rem;
+    margin-top: 10px;
+    min-width:60%;
+
+    .bx--progress-label {
+      font-size: 20px;
+    }
+
+    .bx--progress-line {
+      height: 0.5em;
+      min-width: 100%;
+    }
+
+    .bx--progress-optional {
+      height: 5rem;
+    }
+
+    svg {
+      width: 2rem;
+      height: 2rem;
+    }
+
+    .bx--progress-step {
+      min-width: 33%;
+    }
+  }
+}
