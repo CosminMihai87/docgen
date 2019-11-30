@@ -14,10 +14,10 @@ import AppSwitcher20 from '@carbon/icons-react/lib/app-switcher/20';
 import { Link } from 'react-router-dom';
 
 const AppHeader = () => (
-    <Header aria-label="Exeqtor App">
+    <Header aria-label="Executor App">
         <SkipToContent />
         <HeaderName element={Link} to="/" prefix="Umbral Studios - ">
-            Exeqtor App
+            Executor App
         </HeaderName>
         <HeaderNavigation aria-label="About Us">
             <HeaderMenuItem element={Link} to="/">

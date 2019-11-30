@@ -1,15 +1,26 @@
-import React from 'react';
+import React, { useEffect, useContext } from 'react';
 import {
     ProgressIndicator,
     ProgressStep
 } from 'carbon-components-react';
-import './ProgressIndicator.scss';
+import './ProgressBar.scss';
+import { GlobalContext } from "../ContextAPI";
 
-const ProgressIndicator = () => {
+const ProgressBar = () => {
+
+    const globalContext = useContext(GlobalContext);
+    let step = globalContext.data["step"];
+
+    useEffect(() => {
+        document.getElementsByClassName('bx--progress-step-button')[0].childNodes[0].setAttribute("viewBox", "0 0 16 16");
+        document.getElementsByClassName('bx--progress-step-button')[1].childNodes[0].setAttribute("viewBox", "0 0 16 16");
+        document.getElementsByClassName('bx--progress-step-button')[2].childNodes[0].setAttribute("viewBox", "0 0 16 16");
+    },[step]);
+
     return (
         <div className="bx--row progress-indicator">
             <ProgressIndicator
-                currentIndex={1}
+                currentIndex={step}
             >
                 <ProgressStep
                     description="Creditor"
@@ -28,4 +39,4 @@ const ProgressIndicator = () => {
     );
 };
 
-export default ProgressIndicator;
+export default ProgressBar;

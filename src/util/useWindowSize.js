@@ -1,3 +1,7 @@
+/**
+ * @author: Cosmin Mihai <cosmin.mihai2612@gmail.com>
+ */
+
 import { useState, useEffect } from 'react';
 
 const useWindowSize = () => {

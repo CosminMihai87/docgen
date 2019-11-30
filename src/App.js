@@ -8,14 +8,17 @@
 import React from 'react';
 import './App.scss';
 import { HashRouter as Router } from 'react-router-dom';
+import ContextAPI from "./components/ContextAPI";
 import AppHeader from './components/AppHeader';
 import AppContent from './components/AppContent';
 
 const App = () => {
     return (
         <Router>
-            <AppHeader />
-            <AppContent />
+            <ContextAPI>
+                <AppHeader />
+                <AppContent />
+            </ContextAPI>
         </Router>
     );
 };

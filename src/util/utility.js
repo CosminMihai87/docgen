@@ -1,6 +1,5 @@
 /**
- * Copyright 2019, IntraLinks, Inc, All rights reserved.
- * @author: Cosmin Mihai <cmihai@intralinks.com>
+ * @author: Cosmin Mihai <cosmin.mihai2612@gmail.com>
  */
 
 export const updateObject = (oldObject, updatedProperties) => {

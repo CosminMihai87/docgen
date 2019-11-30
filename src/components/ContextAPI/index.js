@@ -4,78 +4,84 @@
 
 import React, { useState } from "react";
 
-export const GlobalContext = React.createContext({
-  expandCard: false,
-  startChat: false,
-  chatSessionID: '',
-  messageQueue: [],
-  volumeValue: 50,
-  updateExpandCard: () => {},
-  updateStartChat: () => {},
-  updateMessageQueue: () => {},
-  updateVolumeValue: () => {},
-  updateEndChat: () => {}
+export const GlobalContext = React.createContext(
+{
+  step: 0,
+  persoana_creditor: "",
+  persoana_debitor: "",
+  nume_creditor: "",
+  nume_debitor: "",
+  domiciliul_creditor: "",
+  domiciliul_debitor: "",
+  sediul_creditor: "",
+  sediul_debitor: "",
+  judetul_creditor: "",
+  judetul_debitor: "",
+  titlu_executoriu: "",
+  CUI_debitor: "",
+  CNP_debitor: "",
+  debit: "",
+  documente_de_generat: [
+    "Instiintare",
+    "Deschidere"
+  ],
+  updateStep: () => {},
+  updateDetails: () => {},
+  updateDocumentsList: () => {}
 });
 
-const IlLiveChatContext = props => {
+const ContextAPI = props => {
 
   const [state, setState] = useState({
-    expandCard: false,
-    startChat: false,
-    chatSessionID: '',
-    volumeValue: 50,
-    messageQueue: []
+    step: 2,
+    persoana_creditor: "",
+    persoana_debitor: "",
+    nume_creditor: "",
+    nume_debitor: "",
+    domiciliul_creditor: "",
+    domiciliul_debitor: "",
+    sediul_creditor: "",
+    sediul_debitor: "",
+    judetul_creditor: "",
+    judetul_debitor: "",
+    titlu_executoriu: "",
+    CUI_debitor: "",
+    CNP_debitor: "",
+    debit: "",
+    documente_de_generat: [
+      "Instiintare",
+      "Deschidere"
+    ]
   });
-  const updateExpandCardHandler = () => {
+
+  const updateStepHandler = (value) => {
     setState({
       ...state,
-      expandCard: !state.expandCard
+      step: value
     });
   };
-  const updateStartChatHandler = (id,message) => {
+
+  const updateDetailsHandler = (details) => {
     setState({
       ...state,
-      ...{
-        expandCard: true,
-        startChat: true,
-        chatSessionID: id,
-        messageQueue: [...state.messageQueue, message]
-      }
+      ...details
     });
   };
-  const updateEndChatHandler = () => {
+
+  const updateDocumentsListHandler = (value) => {
     setState({
       ...state,
-      ...{
-        expandCard: true,
-        startChat: false,
-        chatSessionID: '',
-        messageQueue: []
-      }
+      documente_de_generat: [...state.documente_de_generat,value]
     });
   };
-  const updateMessageQueueHandler = (message) => {
-    setState({
-      ...state,
-      ...{ expandCard: true, startChat: true, messageQueue: [...state.messageQueue,message] }
-    });
-  };
-  const updateVolumeValueHandler = (value) => {
-    setState({
-      ...state,
-      volumeValue: value
-    });
-  }
 
   return (
     <GlobalContext.Provider
       value={{
         data: state,
-        updateExpandCard: updateExpandCardHandler,
-        updateStartChat: updateStartChatHandler,
-        updateMessageQueue: updateMessageQueueHandler,
-        updateVolumeValue: updateVolumeValueHandler,
-        updateEndChat: updateEndChatHandler
+        updateStep: updateStepHandler,
+        updateDetails: updateDetailsHandler,
+        updateDocumentsList: updateDocumentsListHandler
       }}
     >
       {props.children}
@@ -83,4 +89,4 @@ const IlLiveChatContext = props => {
   );
 };
 
-export default IlLiveChatContext;
+export default ContextAPI;

@@ -1,18 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a3fe425-5de8-4baa-b0db-83527ef84364" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DocgenServices/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DocgenServices/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppContent/AppContent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/AppContent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppContent/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppContent/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppHeader/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppHeader/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContextAPI/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContextAPI/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Creditor/Creditor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Creditor/Creditor.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Creditor/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Creditor/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Debitor/Debitor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Debitor/Debitor.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Debitor/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Debitor/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Documentatie/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Documentatie/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dosare/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dosare/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FileDialogue/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FileDialogue/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GenerareDosar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenerareDosar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Machete/Machete.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Machete/Machete.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Machete/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Machete/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProgressBar/ProgressBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProgressBar/ProgressBar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProgressBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProgressBar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/useInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/useInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/useWindowSize.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/useWindowSize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/utility.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/utility.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="ProjectId" id="1TscUmz5mXYpanJZ9O6Z0dnpuVz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../docgen-electron" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\0.Cosmin\5.React\docgen" />
+      <recent name="C:\0.Cosmin\5.React\docgen\api\routes" />
+      <recent name="C:\0.Cosmin\5.React\docgen\src\util" />
+      <recent name="C:\0.Cosmin\5.React\docgen\src\components" />
+      <recent name="C:\0.Cosmin\5.React\docgen\src\components\Dosare" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\0.Cosmin\5.React\docgen\public" />
+      <recent name="C:\0.Cosmin\5.React\docgen\src\services" />
+      <recent name="C:\0.Cosmin\5.React\docgen\src" />
+      <recent name="C:\0.Cosmin\5.React\docgen" />
+      <recent name="C:\0.Cosmin\5.React\docgen\src\components" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a3fe425-5de8-4baa-b0db-83527ef84364" name="Default Changelist" comment="" />
+      <created>1574252698814</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574252698814</updated>
+      <workItem from="1574252700279" duration="86695000" />
+      <workItem from="1575012893137" duration="437000" />
+      <workItem from="1575013341823" duration="322000" />
+      <workItem from="1575013674980" duration="49000" />
+      <workItem from="1575080061492" duration="129000" />
+      <workItem from="1575080224363" duration="4064000" />
+      <workItem from="1575122622775" duration="8973000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="688" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575066944309">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="688" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.1.1920.1040@0.0.1920.1040" timestamp="1575066944309" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575071607911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.1.1920.1040@0.0.1920.1040" timestamp="1575071607911" />
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1575122630681">
+      <screen x="1920" y="1" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.1.1920.1040@1920.1.1920.1040" timestamp="1575122630681" />
+    <state x="2551" y="205" width="998" height="708" key="SettingsEditor" timestamp="1575013720676">
+      <screen x="1920" y="1" width="1920" height="1040" />
+    </state>
+    <state x="445" y="91" width="998" height="708" key="SettingsEditor/0.0.1920.1040/1920.1.1920.1040@0.0.1920.1040" timestamp="1575013606440" />
+    <state x="2551" y="205" key="SettingsEditor/0.0.1920.1040/1920.1.1920.1040@1920.1.1920.1040" timestamp="1575013720676" />
+    <state x="2377" y="139" width="1033" height="641" key="find.popup" timestamp="1575135289156">
+      <screen x="1920" y="1" width="1920" height="1040" />
+    </state>
+    <state x="457" y="138" width="1033" height="641" key="find.popup/0.0.1920.1040/1920.1.1920.1040@0.0.1920.1040" timestamp="1575124372045" />
+    <state x="2377" y="139" width="1033" height="641" key="find.popup/0.0.1920.1040/1920.1.1920.1040@1920.1.1920.1040" timestamp="1575135289156" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1575042322004">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.1.1920.1040@0.0.1920.1040" timestamp="1575042322004" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1575124450796">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.1.1920.1040@0.0.1920.1040" timestamp="1575124450796" />
   </component>
 </project>

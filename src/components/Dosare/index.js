@@ -1,16 +1,14 @@
 import React from 'react';
-import './GenerareDosar.scss';
-import Creditor from "../Creditor";
-import ProgressBar from "../ProgressBar";
+import './Dosare.scss';
 
-const GenerareDosar = () => {
+const Dosare = () => {
 
     return (
         <>
-            <ProgressBar />
-            <Creditor />
+            Some Fresh Title
+            This is where some content would go
         </>
     );
 };
 
-export default GenerareDosar;
+export default Dosare;

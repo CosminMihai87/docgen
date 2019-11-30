@@ -1,42 +1,42 @@
-import React, { useEffect, useContext } from 'react';
+import React, { useRef, useEffect } from 'react';
 import {
-    ProgressIndicator,
-    ProgressStep
+    Button
 } from 'carbon-components-react';
-import './ProgressBar.scss';
-import { GlobalContext } from "../ContextAPI";
+import './FileDialogue.scss';
 
-const ProgressBar = () => {
+const FileDialogue = () => {
 
-    const globalContext = useContext(GlobalContext);
-    let step = globalContext.data["step"];
+    const inputFile = useRef(null);
 
-    useEffect(() => {
-        document.getElementsByClassName('bx--progress-step-button')[0].childNodes[0].setAttribute("viewBox", "0 0 16 16");
-        document.getElementsByClassName('bx--progress-step-button')[1].childNodes[0].setAttribute("viewBox", "0 0 16 16");
-        document.getElementsByClassName('bx--progress-step-button')[2].childNodes[0].setAttribute("viewBox", "0 0 16 16");
-    },[step]);
+    const handleFileSelect = (event) => {
+        event.preventDefault();
+        inputFile.current.click();
+    };
+
+    useEffect(()=> {
+        console.log(inputFile.current.files)
+    },[inputFile]);
 
     return (
-        <div className="bx--row progress-indicator">
-            <ProgressIndicator
-                currentIndex={step}
+        <>
+            <input
+                type='file'
+                id='file'
+                ref={inputFile}
+                style={{display: 'none'}}
+            />
+            <Button
+                className="test"
+                disabled={false}
+                kind="primary"
+                onClick={(event) => handleFileSelect(event)}
+                tabIndex={0}
+                type="submit"
             >
-                <ProgressStep
-                    description="Creditor"
-                    label="Creditor"
-                />
-                <ProgressStep
-                    description="Debitor"
-                    label="Debitor"
-                />
-                <ProgressStep
-                    description="Machete"
-                    label="Machete"
-                />
-            </ProgressIndicator>
-        </div>
+                Select files
+            </Button>
+        </>
     );
 };
 
-export default ProgressBar;
+export default FileDialogue;
